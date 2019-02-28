@@ -1,0 +1,17 @@
+{
+  "name": "restful-ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "node src/index.js",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "restify": "^8.0.0"
+  }
+}
