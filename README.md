@@ -15,3 +15,26 @@ Criação de um WebService RestFul com Node.js e Restify.
 
 - Caminho:
 `localhost:3000`
+
+# Conteúdo do Curso:
+
+- Aula 01:
+Início do curso + instalação do restify e eslint
+
+- Aula 02:
+Configurando o eslint
+
+- Aula 03:
+Inicializando com o restify
+
+- Aula 04:
+Refatorando o projeto em módulos
+
+- Aula 05:
+CORS
+
+- Aula 06:
+Rotas
+
+- Aula 07:
+Criação do Banco de Dados MySQL
