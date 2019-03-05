@@ -1,4 +1,6 @@
 
+const categories = require('../services/mysql')
+
 const routes = (server) => {
   server.get('/', (req, res, next) => {
     res.send('Enjoy the silence!')
@@ -6,8 +8,13 @@ const routes = (server) => {
   })
 
   server.get('/categoria', (req, res, next) => {
-      res.send(['1', 'lalala'])
-      next()
+      categories.then(categories => {
+        res.send(categories)
+        next()
+      }).catch(error => {
+        res.send(error)
+        next()
+      })
   })
 
   server.post('/categoria', (req, res, next) => {

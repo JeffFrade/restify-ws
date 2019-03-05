@@ -38,3 +38,6 @@ Rotas
 
 - Aula 07:
 Criação do Banco de Dados MySQL
+
+- Aula 08:
+Introdução a Promisses, conectando ao MySQL e retornando dados
