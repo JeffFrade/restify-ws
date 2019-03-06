@@ -7,14 +7,14 @@ const routes = (server) => {
     next()
   })
 
-  server.get('/categoria', (req, res, next) => {
-      db.categories().all().then(categories => {
-        res.send(categories)
-        next()
-      }).catch(error => {
-        res.send(error)
-        next()
-      })
+  server.get('/categoria', async (req, res, next) => {
+    try{
+      res.send(await db.categories().all())
+      next()
+    } catch (error) {
+      res.send(error)
+      next()
+    }
   })
 
   server.post('/categoria', (req, res, next) => {
