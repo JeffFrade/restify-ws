@@ -46,4 +46,7 @@ Introdução a Promisses, conectando ao MySQL e retornando dados
 Refatorando as operações em banco de dados de categorias para um módulo
 
 - Aula 10:
-Introdução à Async e Await e refatorando Promisses com com Async e Await
+Introdução à Async e Await e refatorando Promisses com Async e Await
+
+- Aula 11:
+Criando um Error Handler para exibir os erros do MySQL

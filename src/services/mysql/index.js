@@ -7,8 +7,15 @@ const connection = mysqlServer.createConnection({
   database: 'restful_ws'
 })
 
-const categoryModule = require('./categories')({ connection })
+const errorHandler = (error, msg, rejectedFunction) => {
+  console.log(error)
+  rejectedFunction({ error: msg })
+}
+
+const categoryModule = require('./categories')({ connection, errorHandler })
+//const productModule = require('./products')({ connection, errorHandler })
 
 module.exports = {
-  categories: () => categoryModule
+  categories: () => categoryModule,
+  //products: () => productModule
 }
