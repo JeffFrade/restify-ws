@@ -53,3 +53,6 @@ Criando um Error Handler para exibir os erros do MySQL
 
 - Aula 12:
 Finalização do CRUD de categorias
+
+- Aula 13:
+Refatorando e aplicando correções no código existente
