@@ -5,7 +5,7 @@
 
 Criação de um WebService RestFul com Node.js e Restify.
 
-# Instalação e execução do projeto do curso:
+# Instalação e execução do projeto do curso
 
 - Instalação:
 `npm install`
@@ -16,7 +16,7 @@ Criação de um WebService RestFul com Node.js e Restify.
 - Caminho:
 `localhost:3000`
 
-# Conteúdo do Curso:
+# Conteúdo do Curso
 
 - Aula 01:
 Início do curso + instalação do restify e eslint
@@ -50,3 +50,6 @@ Introdução à Async e Await e refatorando Promisses com Async e Await
 
 - Aula 11:
 Criando um Error Handler para exibir os erros do MySQL
+
+- Aula 12:
+Finalização do CRUD de categorias
