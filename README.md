@@ -56,3 +56,6 @@ Finalização do CRUD de categorias
 
 - Aula 13:
 Refatorando e aplicando correções no código existente
+
+- Aula 14:
+Criando arquivo de configuração (.env) para acesso ao banco de dados
