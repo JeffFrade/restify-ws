@@ -59,3 +59,6 @@ Refatorando e aplicando correções no código existente
 
 - Aula 14:
 Criando arquivo de configuração (.env) para acesso ao banco de dados
+
+- Aula 15:
+Introdução a testes com o AVA
