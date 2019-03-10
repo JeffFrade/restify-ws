@@ -71,3 +71,6 @@ Refatorando e avançando com testes no módulo de categorias
 
 - Aula 18:
 Finalizando com testes
+
+- Aula 19:
+Criação do módulo de usuários e seus respectivos testes
