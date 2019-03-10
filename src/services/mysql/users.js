@@ -9,7 +9,7 @@ const users = deps => {
 
         connection.query('SELECT id, email FROM users', (error, results) => {
           if (error) {
-            errorHandler(error, 'Falha ao listar os usuário', reject)
+            errorHandler(error, 'Falha ao listar os usuários', reject)
             return false
           }
 

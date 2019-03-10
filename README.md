@@ -74,3 +74,6 @@ Finalizando com testes
 
 - Aula 19:
 Criação do módulo de usuários e seus respectivos testes
+
+- Aula 20:
+Implementação da autenticação com JSONWebToken (JWT)
