@@ -80,3 +80,6 @@ Implementação da autenticação com JSONWebToken (JWT)
 
 - Aula 21:
 Refatorando a autenticação e melhorias no teste de autenticação
+
+- Aula 22:
+Introdução a Middlewares
