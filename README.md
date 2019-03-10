@@ -40,7 +40,7 @@ Rotas
 Criação do Banco de Dados MySQL
 
 - Aula 08:
-Introdução a Promisses, conectando ao MySQL e retornando dados
+Introdução a Promises, conectando ao MySQL e retornando dados
 
 - Aula 09:
 Refatorando as operações em banco de dados de categorias para um módulo
@@ -77,3 +77,6 @@ Criação do módulo de usuários e seus respectivos testes
 
 - Aula 20:
 Implementação da autenticação com JSONWebToken (JWT)
+
+- Aula 21:
+Refatorando a autenticação e melhorias no teste de autenticação

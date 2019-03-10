@@ -10,9 +10,14 @@ test.after.always(t => connection.query('TRUNCATE TABLE users'))
 
 test('Login de usuários - sucesso', async t => {
   await create()
-  console.log(await users.all());
-  
   const result = await auth.authenticate('user@test.com', '123456')
   t.not(result.token, null)
   t.not(result.token.length, 0)
+})
+
+test('Login de usuários - falha', async t => {
+  await create()
+  const promise = auth.authenticate('user2@test.com', '123456')
+  const error = await t.throws(promise)
+  t.is(error.error, 'Falha ao localizar o usuário')
 })
