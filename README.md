@@ -68,3 +68,6 @@ Introdução à criação de testes para o módulo de categorias
 
 - Aula 17:
 Refatorando e avançando com testes no módulo de categorias
+
+- Aula 18:
+Finalizando com testes
