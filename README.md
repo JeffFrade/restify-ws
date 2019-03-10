@@ -65,3 +65,6 @@ Introdução a testes com o AVA
 
 - Aula 16:
 Introdução à criação de testes para o módulo de categorias
+
+- Aula 17:
+Refatorando e avançando com testes no módulo de categorias
