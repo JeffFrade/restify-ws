@@ -62,3 +62,6 @@ Criando arquivo de configuração (.env) para acesso ao banco de dados
 
 - Aula 15:
 Introdução a testes com o AVA
+
+- Aula 16:
+Introdução à criação de testes para o módulo de categorias
