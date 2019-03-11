@@ -86,3 +86,6 @@ Introdução a Middlewares
 
 - Aula 23:
 Validando o token com middleware
+
+- Aula 24:
+Finalizando e refatorando o middleware
