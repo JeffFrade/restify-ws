@@ -89,3 +89,6 @@ Validando o token com middleware
 
 - Aula 24:
 Finalizando e refatorando o middleware
+
+- Aula 25:
+Correções na autenticação e no middleware
