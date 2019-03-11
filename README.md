@@ -13,6 +13,9 @@ Criação de um WebService RestFul com Node.js e Restify.
 - Execução:
 `npm run dev`
 
+- Execução dos teste:
+`npm run test`
+
 - Caminho:
 `localhost:3000`
 
@@ -92,3 +95,6 @@ Finalizando e refatorando o middleware
 
 - Aula 25:
 Correções na autenticação e no middleware
+
+- Aula 26:
+Fazendo deploy da aplicação
