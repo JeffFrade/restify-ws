@@ -83,3 +83,6 @@ Refatorando a autenticação e melhorias no teste de autenticação
 
 - Aula 22:
 Introdução a Middlewares
+
+- Aula 23:
+Validando o token com middleware
